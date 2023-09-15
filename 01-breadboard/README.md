@@ -31,7 +31,7 @@ Add power and ground wires at the bottom of your board connecting each rail.
 
 ## Adding ATMEGA
 Before this step we need to know the function of each pin of ATMEGA.
-![picture description](./images/ATMEGA 168.jpg)
+![picture description](./images/ATMEGA 168.png)
 
 Then, we add ATMEGA on the board.
 
@@ -43,6 +43,7 @@ Then, we add ATMEGA on the board.
 Connect the GND pin to the negative side of the power supply.
 
 Connect the VCC pin to the positive side of the power supply. Also the AREF pin and AVCC pin are the same.
+
 Then add a capacitor between VCC and GND for further stabilization of the current.
 
 ## Adding a LED
@@ -90,7 +91,7 @@ Add a LED , connect with computer and try out the Blink programme of the example
 ### Uploading programme
 ![picture description](./images/error1.png)
 
-Oops, whats going on? It's stuck in this state for a second.
+Oops, whats going on? It's stuck in this state for a while.
 
 After a long time it finally came out. But it doesn't look right.
 
