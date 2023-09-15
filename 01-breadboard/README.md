@@ -31,7 +31,7 @@ Add power and ground wires at the bottom of your board connecting each rail.
 
 ## Adding ATMEGA
 Before this step we need to know the function of each pin of ATMEGA.
-![picture description](./images/ATMEGA 168.png)
+![picture description](./images/ATMEGA168.png)
 
 Then, we add ATMEGA on the board.
 
