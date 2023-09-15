@@ -34,7 +34,8 @@ Before this step we need to know the function of each pin of ATMEGA.
 ![picture description](./images/ATMEGA 168.jpg)
 
 Then, we add ATMEGA on the board.
-** Be careful! There is a small semicircular incision at one end of the head of the ATMEGA. **
+
+**Be careful! There is a small semicircular incision at one end of the head of the ATMEGA.**
 ![picture description](./images/step2.jpg)
 
 ## Adding supporting circuitry for ATMEGA
