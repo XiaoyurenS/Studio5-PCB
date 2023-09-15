@@ -24,6 +24,7 @@ First, we need some materials to wire up Arduino:
 ![picture description](./images/step1.jpg)
 Add power and ground wires and the 7805 and decoupling capacitors.
 
+![picture description](./images/regulator.jpg)
 The regulator is a TO-220 package where the Input from the external power supply goes input on the left, ground is in the middle and the 5V output is on the right (when facing the front of the regulator). Add power OUT and ground wires that connect to the right and left rails of the breadboard.
 
 Add power and ground wires at the bottom of your board connecting each rail.
@@ -39,14 +40,17 @@ Then, we add ATMEGA on the board.
 ## Adding supporting circuitry for ATMEGA
 ![picture description](./images/step3.jpg)
 Connect the GND pin to the negative side of the power supply.
+
 Connect the VCC pin to the positive side of the power supply. Also the AREF pin and AVCC pin are the same.
 Then add a capacitor between VCC and GND for further stabilization of the current.
 
 ## Adding a LED
 ![picture description](./images/step4.jpg)
 Add a LED and a 1K Ohm resistor into circuit. It can tell us if there is a current in the circuit.
-** Attention! The longer leg of LED is positive and the shorter one is negative. **
-** Also, you can make a judgement through its shape. The round side is positive, the flat side is negative. **
+
+**Attention! The longer leg of LED is positive and the shorter one is negative.**
+
+**Also, you can make a judgement through its shape. The round side is positive, the flat side is negative.**
 ![picture description](./images/LED.jpg)
 
 ## Add the Clock & Caps
@@ -66,9 +70,11 @@ We connect the USB to the board according to the following rules:
 * VCC -> VCC
 * GND -> GND
 
-*DTR means Data Terminal Ready and indicates that the connected device is ready to receive data
-*RXD means Receive Data
-*TXD means Transmit Data
+*DTR means Data Terminal Ready and indicates that the connected device is ready to receive data*
+
+*RXD means Receive Data*
+
+*TXD means Transmit Data*
 
 Then add a ?uF capacitor between positive and DTR pin of USB.
 
