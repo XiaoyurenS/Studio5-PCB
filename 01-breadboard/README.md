@@ -74,23 +74,23 @@ Then add a ?uF capacitor between positive and DTR pin of USB.
 
 ## Connecting with computer
 Now the Arduino on a board is ready.
-![picture description](./images/blink.jpg)
+![picture description](./images/example_blink.jpg)
 Add a LED , connect with computer and try out the Blink programme of the examples.
 
 ### Choosing board & port
-![picture description](./images/choose board&port.jpg)
+![picture description](./images/choose board&port.png)
 
 ### Uploading programme
-![picture description](./images/error1.jpg)
+![picture description](./images/error1.png)
 Oops, whats going on? It's stuck in this state for a second.
 
 After a long time it finally came out. But it doesn't look right.
-![picture description](./images/error2.jpg)
-![picture description](./images/error3.jpg)
+![picture description](./images/error2.png)
+![picture description](./images/error3.png)
 
 I've tried almost every solution. I have tried repalcing USB, ATMEGA, computer.
 Finally, I found that I made a mistake. I put the clock crystal and capacitors into wrong place.
 ![picture description](./images/wrong.jpg)
 I finally got it to work after moving it one square to the left.
 ![picture description](./images/correct.jpg)
-![picture description](./images/upload.jpg)
+![picture description](./images/upload.png)
