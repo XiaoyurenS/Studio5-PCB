@@ -1,35 +1,31 @@
-# Assignment's Title
+# Sketch: Pin Headers and Jumper Wires
 
-## Assignment's description
-Describe the assignment
+## Brief
+The teacher ask us to make hand-drawn sketches of the basic electronic components used on the Arduino on a Breadboard and refer to the style of naturalistic illustrations, draw the sketch with sections, exploded and magnified views, including short descriptive text. 
 
-## Documentation
-Describe the work you did to complete the assignment
+My part is Pin Headers and Jumper Wires. 
 
-bullet point list
-* item one
-* item two
-* item three
+## Sketch 
+![picture description](./images/Sketch.jpg)
 
-numbered list
-1. item one
-2. item two
-3. item three
+## Description
+### Pin Headers
+There are two kinds of pin headers: male and female.
 
-**bold text**
+The inner part of a female pin header is a shape of fork, which can clamp a male one.
 
-*italic text*
+The headers are attached to the PCBboard by soldering.
 
-***italic and bold text***
+### Jumper Wires
+There are two three kinds of jumper wires with plastic housing: male-male wire, female-female wire and male-female wire.
 
-example of an external link
+The components of a jumper wire, from outside to inside, are plastic housing, conncetor and wire.
 
-[description of the website](https://www.https://www.example.com/)
+The end portion of the wire is stripped of its outer insulation to expose the copper core, placed in a connector, and then the two parts are held together using a specialized type of pliers.
 
-example of a picture hosted on an external website
+## Reference
+[Dupont Connectors - Quickly and easily make your own](https://www.youtube.com/watch?v=jET1QTP1B7c)
 
-![picture description](https://djmag.com/sites/default/files/storyimages/Clara_Rockmore.jpg)
+[Pin Headers - soldering, cutting, male, female, etc.](https://www.youtube.com/watch?v=qz9Ryos1_GY)
 
-example of a picture hosted inside your repository (don't forget the ./ operand)
-
-![picture description](./images/example.jpg)
+[Connector Basics - Pin Header Connectors](https://learn.sparkfun.com/tutorials/connector-basics/pin-header-connectors)
