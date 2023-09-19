@@ -6,7 +6,7 @@ The teacher ask us to make hand-drawn sketches of the basic electronic component
 My part is Pin Headers and Jumper Wires. 
 
 ## Sketch 
-![picture description](./images/Sketch.jpg)
+![picture description](./images/Sketch2.jpg)
 
 ## Description
 ### Pin Headers
