@@ -48,6 +48,7 @@ void loop() {
 
 ### Principle
 ![picture description](./images/MQ3.png)
+
 MQ3 alcohol sensor is a metal oxide semiconductor (MOS) type sensor. This metal oxide changes its resistance when exposed to different concentrations of alcohol. 
 
 **This sensor needs to work at high temperatures. So when we turn on the circuit we need to wait a while for the sensor to warm up before we start using it.**
@@ -80,13 +81,15 @@ void loop() {
 ```
 
 ### Present
-![picture description](./images/alcoholsensor.jpg)
+![picture description](./images/alcoholsensor.png)
 
 ### Result
-![picture description](./images/sensorvalue.jpg)
+![picture description](./images/sensorvalue.png)
+
 The normal circumstance.
 
-![picture description](./images/sensorvalue2.jpg)
+![picture description](./images/sensorvalue2.png)
+
 When I take a sip of wine and then blow on it.
 
 ## Reference
