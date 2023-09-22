@@ -47,16 +47,47 @@ void loop() {
 ## MQ3 alcohol sensor
 
 ### Principle
-![picture description](./images/KY027.jpg)
-
+![picture description](./images/MQ3.png)
 MQ3 alcohol sensor is a metal oxide semiconductor (MOS) type sensor. This metal oxide changes its resistance when exposed to different concentrations of alcohol. 
+
+**This sensor needs to work at high temperatures. So when we turn on the circuit we need to wait a while for the sensor to warm up before we start using it.**
+
+It has 4 pins. From top to bottom are:
+* GND
+* VCC
+* Analog
+* Digital
+
+This module can output two types of signals, digital and analog. I just used the analog pin.
 
 ### Code
 ```ruby
+float alcoholvalue = 0; // Define an variable for alcohol.
 
+void setup() {
+  pinMode(A0,INPUT);
+  Serial.begin(9600);
+  Serial.println("MQ-3 is warming up!"); // Indicate that the sensor is warming up.
+  delay(20000); // Waiting for warm-up time.
+}
+
+void loop() {
+  alcoholvalue = analogRead(A0);
+  Serial.print("Sensor Value:");
+  Serial.println(alcoholvalue); // Display of alcohol concentration.
+  delay(1000);
+}
 ```
 
 ### Present
+![picture description](./images/alcoholsensor.jpg)
+
+### Result
+![picture description](./images/sensorvalue.jpg)
+The normal circumstance.
+
+![picture description](./images/sensorvalue2.jpg)
+When I take a sip of wine and then blow on it.
 
 ## Reference
 [【雕爷学编程】Arduino动手做（132）---KY-027魔术光环模块](https://zhuanlan.zhihu.com/p/640036912)
