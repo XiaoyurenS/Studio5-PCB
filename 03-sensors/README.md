@@ -47,6 +47,9 @@ void loop() {
 ## MQ3 alcohol sensor
 
 ### Principle
+![picture description](./images/KY027.jpg)
+
+MQ3 alcohol sensor is a metal oxide semiconductor (MOS) type sensor. This metal oxide changes its resistance when exposed to different concentrations of alcohol. 
 
 ### Code
 ```ruby
@@ -55,3 +58,7 @@ void loop() {
 
 ### Present
 
+## Reference
+[【雕爷学编程】Arduino动手做（132）---KY-027魔术光环模块](https://zhuanlan.zhihu.com/p/640036912)
+
+[MQ3酒精传感器如何工作及其与Arduino接口](https://zhuanlan.zhihu.com/p/340078614)
