@@ -81,7 +81,7 @@ void loop() {
 ```
 
 ### Present
-![picture description](./images/alcoholsensor.jpg)
+![picture description](./images/alcholsensor.jpg)
 
 ### Result
 ![picture description](./images/sensorvalue.png)
