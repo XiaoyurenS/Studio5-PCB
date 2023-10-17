@@ -1,10 +1,17 @@
-# Assignment's Title
+# CNC Milling
 
 ## Assignment's description
-Describe the assignment
+We learnt how to design our own arduino pcb board with EasyEDA. And then we milt the board with the CNC milling machine. Finally, we soldered the components to the pcb board.
 
 ## Documentation
-Describe the work you did to complete the assignment
+
+### Project design in EasyEDA
+
+### Explore documents for milling
+
+### Cutting board
+
+### Soldering components
 
 bullet point list
 * item one
