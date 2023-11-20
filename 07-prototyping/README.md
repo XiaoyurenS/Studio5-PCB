@@ -1,35 +1,15 @@
-# Assignment's Title
+# Very Rapid Prototyping
 
-## Assignment's description
-Describe the assignment
+## Description
+Today we are asked to make a very rapid prototype about our final project in the next week by using some recycle material.
 
-## Documentation
-Describe the work you did to complete the assignment
+My preliminary concept is about simulate ants' action of find their way. 
 
-bullet point list
-* item one
-* item two
-* item three
+## Presenting
+I made a headset device.
 
-numbered list
-1. item one
-2. item two
-3. item three
+I use cardboard to form it boody, a motor with a stick to tell the direction, and use a simple device to control its direct.
 
-**bold text**
+![picture description](./images/prototype1.jpg)
 
-*italic text*
-
-***italic and bold text***
-
-example of an external link
-
-[description of the website](https://www.https://www.example.com/)
-
-example of a picture hosted on an external website
-
-![picture description](https://djmag.com/sites/default/files/storyimages/Clara_Rockmore.jpg)
-
-example of a picture hosted inside your repository (don't forget the ./ operand)
-
-![picture description](./images/example.jpg)
+![picture description](./images/prototype2.jpg)
