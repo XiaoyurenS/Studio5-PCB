@@ -21,6 +21,7 @@ This file editing was done on Jialichuang's EasyEDA platform.
 ### Circuit Board Drawing
 Schematic page
 ![picture description](./images/schematicpage.png)
+
 PCB page
 ![picture description](./images/pcbpage.png)
 
@@ -39,6 +40,5 @@ Front-View
 
 ![picture description](./images/outdoor1.jpg)
 ![picture description](./images/outdoor2.jpg)
-![picture description](./images/example.jpg)
 
 ![picture description](./images/using.jpg)
